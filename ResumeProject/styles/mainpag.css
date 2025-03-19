@@ -1,0 +1,130 @@
+.bodyCenter {
+    background-color: hsl(214, 64%, 78%); 
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 4vh;
+}
+
+.padding {
+    padding-top: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 20px; 
+}
+.resume {
+    margin: auto;
+    background: #0f918a;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.SKILLS {
+    width: 90vw;
+    background-color: #138e92;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.progress{
+    width: 100%;
+    height:10px;
+    border:none;
+    border-radius: 5px;
+    background: #0f9397;
+}
+.progress[value]{
+    background-color: #2b9e95;
+    transition: width 0.5s ease-in-out;
+}
+.p{
+    margin-bottom: 20px;
+
+}
+p span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.EDUCATIONALINFORMATION {
+    background-color: #1c8a92;
+    color: #4a848b;
+    padding: 10px 0 10px 0;
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:flex;
+    min-width: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+
+header {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 20px;
+    text-align: center;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+/*dark-mode*/
+  body {
+    background-color: white;
+    color: black;
+    font-family: arial,sans-serif;
+  }
+  button{
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:10px;
+  transition: background 0.3s;
+  }
+  button:hover {
+background: #0f9397;
+  }
+  /*dark-mode styles*/
+  .dark-mode{
+    background-color: black;
+    color: white;
+  }
+.dark-mode h2{
+    color: chartreuse;
+}
+.dark-mode .project-card{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.dark-mode button{
+    background:darkgoldenrod;
+    color: black;
+}
+.dark-mode button:hover{
+    background-color: darkgoldenrod;
+}
+ /*footer---*/
+ footer{
+    margin-top: 40px;
+    text-align: center;
+ }
+
+@media screen and (max-width: 500px) {
+    .nav{
+        display: none
+    };
+}
+
+
+
